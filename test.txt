@@ -1,0 +1,17 @@
+-creamos una carpeta
+-abrimos la carpeta en Visual 
+-en viasual seleccionamos la carpeta y abrimos un nuevo terminal
+-clonamos el repocitorio con:
+git clone https://github.com/andrypetro/Techfix_Solutions.git
+-entramos en el repocitorio con:cd NOMBRE DEL repocitorio
+CD Techfix_Solutions
+-ahora nos encontramos en la rama principlal main.
+-creamos una nueva rama con: git checkout -b NOMBRE DE LA rama
+git checkout -b ramaAndryPetroHTML
+-subiramos el archivo nuevo
+git add . "ESTO SUBE TADA LA CARPETA CONTENEDORA"
+git add index.html "Esto solo sube un archivo en especifico"
+-agrgamos el commit con:
+git commit -m "esto es un commit ó agrego html"
+-subimos la rama al repocitorio: git push origin NOMBRE DE LA RAMA.
+git push origin ramaAndryPetroHTML
